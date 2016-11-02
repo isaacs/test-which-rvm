@@ -1,0 +1,14 @@
+{
+  "name": "test-which-rvm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set -x && rvm install ruby-2.3.0"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "license": "ISC",
+  "dependencies": {
+    "which": "^1.2.11"
+  }
+}
